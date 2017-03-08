@@ -19,6 +19,7 @@ public class Person {
 	public Integer rollno;
 	public String name;
 	public String dept;
+//	public String name;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
